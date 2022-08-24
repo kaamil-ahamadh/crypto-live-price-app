@@ -57,7 +57,7 @@ const CryptoPrice = ({
             </div>
           </div>
           <div>24H Volume: $ {millify(tradingVolume)}</div>
-          <div> 24H High $ {high}</div>
+          <div> 24H High: $ {high}</div>
           <div> 24H Low: $ {low}</div>
           <div>Market Cap: $ {millify(marketCap)}</div>
         </div>
