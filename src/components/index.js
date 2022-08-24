@@ -5,3 +5,4 @@ export { default as CryptoPrice } from "./CryptoPrice";
 export { default as Search } from "./Search";
 export { default as Carousel } from "./Carousel";
 export { default as Pagination } from "./Pagination";
+export { default as SkeletonLoader } from "./SkeletonLoader";
