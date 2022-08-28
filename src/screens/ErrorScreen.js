@@ -96,6 +96,8 @@ const ErrorScreen = () => {
               />
               <a
                 href="https://www.freepik.com/free-vector/error-404-concept-landing-page_4660894.htm#query=error%20404&position=1&from_view=search"
+                target="_blank"
+                rel="noreferrer noopener"
                 className="text-sm"
               >
                 (Credits: Original Image by pikisuperstaron Freepik)
