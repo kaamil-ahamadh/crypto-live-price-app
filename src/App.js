@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import { Header, Footer, Loading } from "./components";
 import GlobalContext from "./context/GlobalContext";
 import HomeScreen from "./screens/HomeScreen";
+import ErrorScreen from "./screens/ErrorScreen";
 
 function App() {
   const [coins, setCoins] = useState({});
@@ -65,6 +66,7 @@ function App() {
           <div className="screen-wrapper">
             <Routes>
               <Route path="/" element={<HomeScreen />} />
+              <Route path="*" element={<ErrorScreen />} />
             </Routes>
           </div>
         </div>

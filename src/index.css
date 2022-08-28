@@ -122,3 +122,12 @@ body {
 .skeleton-loader-item {
   @apply h-3 bg-slate-700 rounded col-span-3;
 }
+
+/* Error Screen */
+.error-screen-wrapper {
+  @apply min-h-screen flex items-center p-5 lg:p-20 overflow-hidden relative;
+}
+
+.error-screen-card {
+  @apply flex-1 min-h-full min-w-full rounded-3xl bg-[#041938] shadow-xl p-10 lg:p-20 text-gray-800 relative md:flex items-center text-center md:text-left;
+}
